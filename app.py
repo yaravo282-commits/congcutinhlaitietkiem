@@ -124,8 +124,8 @@ if st.button("🧮 TÍNH LÃI", use_container_width=True):
             # Ghép lãi hàng quý
             so_ky = ky_han / 3
             lai_ky = lai_nam / 4
-          tong_goc_lai = so_tien * (1 + lai_ky) ** so_ky
-            tong_tien_lai = tong_goc_lai - so_tien
+tong_goc_lai = so_tien * (1 + lai_ky) ** so_ky
+tong_tien_lai = tong_goc_lai - so_tien
 
             # Lãi của quý đầu tiên
             lai_dinh_ky = so_tien * lai_ky
